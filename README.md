@@ -1,16 +1,36 @@
-# runway_fashion
+# 🛍️ Runway Fashion App
 
-A new Flutter project.
+A modern, stylish mobile fashion store app built using **Flutter**. The app provides an elegant user experience with clean UI design, responsive layout, and smooth navigation — all tailored for showcasing fashion products.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 🧥 **Product Showcase**: Display fashion items with image, price, and description.
+- 🔍 **Bottom Navigation Bar**: Simple and intuitive tab-based navigation.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![splash Screen](assets/screenShots/splash.png)
+![Home Screen](assets/screenShots/home.png)
+![category Screen](assets/screenShots/category.png)
+![details Screen](assets/screenShots/details.png)
+![details Screen](assets/screenShots/moreDetails.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+The app uses a clean structure for better scalability and maintainability:
+
+```
+lib/
+├── assets/            # Fonts, images, icons
+├── models/            # Data models for products
+├── screens/           # UI screens like Home, Bag, Favorites
+├── widgets/           # Reusable UI components
+└── main.dart          # Entry point
+```
+
+## 🛠️ Technologies Used
+
+- **Flutter** & **Dart**
+- **Material Design**
+- **Custom Navigation**
+- **State Management** (setState or any package if used)
